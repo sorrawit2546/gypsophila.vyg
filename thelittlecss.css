@@ -1,0 +1,30 @@
+.sidebar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 200px;
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.sidebar-logo-title {
+    display: flex;
+    flex-direction: row;
+    
+    padding: 15px;
+}
+
+.sidebar-logo-title img {
+    width: 60px;
+    height: 60px;
+}
+
+.sidebar-logo-title div {
+   display: flex;
+   align-items: center;
+   padding-left: 15px;
+
+}
+
